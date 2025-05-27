@@ -1,0 +1,45 @@
+# Build output
+/build/
+/bin/
+/build/bin/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+yggdrasill-ctrl
+grein-ctrl
+
+# Temporary files
+*.tmp
+*.log
+
+# C++ specific
+*.exe
+*.out
+*.app
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Hidden system files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# CMake files (если используешь)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Python virtualenvs (если используются)
+venv/
+env/
